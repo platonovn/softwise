@@ -1,0 +1,32 @@
+.app-form {
+
+  &_field {
+    width: 100%;
+  }
+
+  &_table-container {
+    max-height: 80%;
+    width: 80%;
+    overflow: auto;
+  }
+
+  &_table {
+    width: 100%;
+  }
+
+  &_spinner-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.7);
+  }
+
+  &_spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
